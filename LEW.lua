@@ -2402,7 +2402,7 @@ end
 
 end --sudo
 if tonumber(msg.sender_user_id_) == tonumber(sudo_add) then
-if text == 'تفعيل البوت خدمي') then
+if (text == 'تفعيل البوت خدمي') then
 database:set("add"..bot_id, "yes")
 send(msg.chat_id_, msg.id_, 1, "☑¦تم تفعيل البوت خدمي الان يمكن للجميع تفعيل البوت", 1, 'html')
 end
